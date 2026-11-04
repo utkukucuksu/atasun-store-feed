@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stores source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-03T13:18:41+03:00" count="347">
+<stores source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-04T14:04:40+03:00" count="347">
   <store code="M34071">
     <name>Silivri Cadde</name>
     <slug>silivri-cadde</slug>
@@ -6232,10 +6232,10 @@
     <hours>Açık (09:00-19:00 saatleri arasında) Pazar: 10:00:18:00</hours>
     <phone>+905428618000</phone>
     <mobile>+905428618000</mobile>
-    <address>Gazeteci Hasan Tahsin cad. Hacı Ali apt D blok Altı No: 29</address>
+    <address>Gazeteci Hasan Tahsin Cad. Hacı Ali Apt. D Blok Altı No: 29 Ortaköy</address>
     <location>
-      <city id="1001">Lefkoşa</city>
-      <district id="259">Ortaköy</district>
+      <city id="0">Lefkoşa</city>
+      <district id="1079">Ortaköy</district>
       <country>TR</country>
       <latitude>35.1993655</latitude>
       <longitude>33.3339178</longitude>
