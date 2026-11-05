@@ -18,6 +18,24 @@ Sonrasında her sabah 06:17'de (TR) otomatik çalışır.
 | `docs/stores.xml` | Tüm mağazalar (kod, ad, tür, durum, saatler, telefonlar, adres, il/ilçe + ID, koordinat, mağaza sayfası URL'i) |
 | `docs/changes.json` | Bir önceki güne göre eklenen / kapanan / bilgisi değişen mağazalar |
 
+## Çalışma saatleri (schema 1.1)
+
+`hours` alanı sitedeki serbest metni olduğu gibi taşır. Yanında gün bazlı yapı vardır:
+
+```xml
+<opening_hours inferred="false">
+  <day name="monday" open="09:00" close="20:00" />
+  ...
+  <day name="sunday" closed="true" />
+</opening_hours>
+```
+
+- "Açık (A–B saatleri arasında)" aralığı, metinde ayrıca belirtilmeyen tüm günlere uygulanır; metinde adı geçen gün (Cuma, Cumartesi, Pazar vb.) kendi değerini alır. "Pazar: KAPALI" → `closed="true"`.
+- `inferred="true"`: metinde hiçbir gün ayrıca belirtilmemiş, tek aralık 7 güne uygulanmıştır.
+- Gece yarısı kapanış `24:00` olarak yazılır.
+- Geçici kapalı mağazalarda `opening_hours` bulunmaz.
+- Resmi tatil / özel gün saatleri feed kapsamında değildir.
+
 ## Güvenlik kontrolü
 
 Sayfadan 150'den az mağaza gelirse (site hatası, WAF engeli, şablon değişikliği) script mevcut XML'i **ezmez** ve iş başarısız olur — GitHub size e-posta bildirimi gönderir. Böylece boş/bozuk feed yayına çıkmaz.

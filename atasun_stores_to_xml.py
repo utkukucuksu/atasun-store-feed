@@ -60,6 +60,54 @@ def normalize_phone(raw: str) -> str:
     return "+" + digits if len(digits) > 10 else digits
 
 
+DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+DAY_PATTERNS = {  # Türkçe gün adı -> index; Pazar/Pazartesi ve Cuma/Cumartesi karışmasın
+    0: r"Pazartesi", 1: r"Sal[ıi]", 2: r"Çarşamba", 3: r"Perşembe",
+    4: r"Cuma(?!rtesi)", 5: r"Cumartesi", 6: r"Pazar(?!tesi)",
+}
+TIME_RANGE = r"(\d{1,2})[:.](\d{2})\s*[-:–]\s*(\d{1,2})[:.](\d{2})"
+
+
+def _hhmm(h: str, m: str) -> str:
+    return f"{int(h):02d}:{m}"
+
+
+def parse_hours(text: str) -> tuple[list[dict], bool] | None:
+    """
+    Serbest metin saatleri gün bazına çevirir.
+    Kural: "Açık (A-B ...)" aralığı Pzt–Cmt için (Pazar belirtilmemişse Pazar için de) geçerlidir;
+    metinde adı geçen gün varsa o günün değeri kullanılır.
+    Dönüş: ([{day, open, close} | {day, closed: True}], inferred) — inferred=True ise
+    metinde hiçbir gün ayrıca belirtilmemiş, tek aralık tüm günlere uygulanmıştır.
+    Ayrıştırılamazsa None.
+    """
+    if not text or "geçici olarak kapalı" in text.lower():
+        return None
+    m = re.search(r"Açık\s*\(\s*" + TIME_RANGE, text)
+    if not m:
+        return None
+    default = (_hhmm(m.group(1), m.group(2)), _hhmm(m.group(3), m.group(4)))
+    week: list = [default] * 7
+    rest = text[m.end():]
+    explicit = False
+    for idx, pat in DAY_PATTERNS.items():
+        dm = re.search(pat + r"\s*:\s*(KAPALI|" + TIME_RANGE + ")", rest, re.IGNORECASE)
+        if not dm:
+            continue
+        explicit = True
+        if dm.group(1).upper() == "KAPALI":
+            week[idx] = None
+        else:
+            week[idx] = (_hhmm(dm.group(2), dm.group(3)), _hhmm(dm.group(4), dm.group(5)))
+    # Gece yarısı kapanış "00:00" -> "24:00" (açılıştan önce gibi okunmasın)
+    week = [None if v is None else (v[0], "24:00" if v[1] == "00:00" else v[1]) for v in week]
+    days = []
+    for i, v in enumerate(week):
+        days.append({"day": DAYS[i], "closed": True} if v is None
+                    else {"day": DAYS[i], "open": v[0], "close": v[1]})
+    return days, not explicit
+
+
 def to_float(v: str | None) -> str:
     try:
         return f"{float(v):.7f}".rstrip("0").rstrip(".")
@@ -137,6 +185,7 @@ def fetch_stores() -> list[dict]:
 
 def build_xml(stores: list[dict], generated_at: datetime) -> bytes:
     root = ET.Element("stores", {
+        "schema_version": "1.1",
         "source": SOURCE_URL,
         "generated_at": generated_at.isoformat(timespec="seconds"),
         "count": str(len(stores)),
@@ -145,6 +194,17 @@ def build_xml(stores: list[dict], generated_at: datetime) -> bytes:
         st = ET.SubElement(root, "store", {"code": s["code"]})
         for key in ("name", "slug", "url", "type", "status", "hours", "phone", "mobile", "address"):
             ET.SubElement(st, key).text = s[key]
+        parsed = parse_hours(s["hours"])
+        if parsed:
+            days, inferred = parsed
+            oh = ET.SubElement(st, "opening_hours", {"inferred": "true" if inferred else "false"})
+            for d in days:
+                attrs = {"name": d["day"]}
+                if d.get("closed"):
+                    attrs["closed"] = "true"
+                else:
+                    attrs["open"], attrs["close"] = d["open"], d["close"]
+                ET.SubElement(oh, "day", attrs)
         loc = ET.SubElement(st, "location")
         ET.SubElement(loc, "city", {"id": s["city_id"]}).text = s["city"]
         ET.SubElement(loc, "district", {"id": s["district_id"]}).text = s["district"]

@@ -1,15 +1,7 @@
 {
-  "generated_at": "2026-11-04T14:04:40+03:00",
+  "generated_at": "2026-11-05T11:40:20+03:00",
   "count": 347,
   "added": [],
   "removed": [],
-  "changed": [
-    {
-      "code": "F99001",
-      "name": "Kıbrıs Lefkoşa Cadde",
-      "fields": [
-        "address"
-      ]
-    }
-  ]
+  "changed": []
 }
