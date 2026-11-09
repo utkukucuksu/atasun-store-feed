@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stores schema_version="1.1" source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-08T13:30:36+03:00" count="347">
+<stores schema_version="1.1" source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-09T14:44:22+03:00" count="346">
   <store code="M34071">
     <name>Silivri Cadde</name>
     <slug>silivri-cadde</slug>
@@ -6104,33 +6104,6 @@
       <country>TR</country>
       <latitude>41.3362522</latitude>
       <longitude>36.2730668</longitude>
-    </location>
-  </store>
-  <store code="M35021">
-    <name>İzmir Karşıyaka Hılltown Avm</name>
-    <slug>izmir-karsiyaka-hilltown</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/izmir-karsiyaka-hilltown</url>
-    <type>AVM</type>
-    <status>open</status>
-    <hours>Açık(10:00-22:00saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
-    <phone>+902325047133</phone>
-    <mobile>+905498324195</mobile>
-    <address>YALI Mah. 6522 Sok.</address>
-    <opening_hours inferred="false">
-      <day name="monday" open="10:00" close="22:00" />
-      <day name="tuesday" open="10:00" close="22:00" />
-      <day name="wednesday" open="10:00" close="22:00" />
-      <day name="thursday" open="10:00" close="22:00" />
-      <day name="friday" open="10:00" close="22:00" />
-      <day name="saturday" open="10:00" close="22:00" />
-      <day name="sunday" open="10:00" close="22:00" />
-    </opening_hours>
-    <location>
-      <city id="35">İzmir</city>
-      <district id="496">Karşıyaka</district>
-      <country>TR</country>
-      <latitude>38.478091</latitude>
-      <longitude>27.075041</longitude>
     </location>
   </store>
   <store code="M27004">
