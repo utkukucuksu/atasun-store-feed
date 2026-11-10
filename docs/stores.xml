@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stores schema_version="1.1" source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-09T14:44:22+03:00" count="346">
+<stores schema_version="1.1" source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-10T14:21:34+03:00" count="346">
   <store code="M34071">
     <name>Silivri Cadde</name>
     <slug>silivri-cadde</slug>
@@ -5773,7 +5773,7 @@
     <hours>Açık (09:00-20:00 saatleri arasında) Pazar: 10:00:19:00</hours>
     <phone>+902482326000</phone>
     <mobile>+905395709482</mobile>
-    <address>Burç Mahallesi, Atatürk Caddesi Dış Kapı</address>
+    <address>Çeşmedamı Mahallesi, Gazi Caddesi 2/B Merkez/Burdur</address>
     <opening_hours inferred="false">
       <day name="monday" open="09:00" close="20:00" />
       <day name="tuesday" open="09:00" close="20:00" />
@@ -5785,7 +5785,7 @@
     </opening_hours>
     <location>
       <city id="15">Burdur</city>
-      <district id="195">Ağlasun</district>
+      <district id="203">Merkez</district>
       <country>TR</country>
       <latitude>37.718418</latitude>
       <longitude>30.28253</longitude>
