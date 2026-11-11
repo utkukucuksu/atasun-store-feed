@@ -1,15 +1,7 @@
 {
-  "generated_at": "2026-11-10T14:21:34+03:00",
+  "generated_at": "2026-11-11T14:08:18+03:00",
   "count": 346,
   "added": [],
   "removed": [],
-  "changed": [
-    {
-      "code": "M15001",
-      "name": "Burdur Cadde",
-      "fields": [
-        "address"
-      ]
-    }
-  ]
+  "changed": []
 }
