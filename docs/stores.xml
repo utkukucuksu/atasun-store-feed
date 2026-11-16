@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stores schema_version="1.1" source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-15T14:07:20+03:00" count="346">
+<stores schema_version="1.1" source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-16T14:35:33+03:00" count="347">
   <store code="M34071">
     <name>Silivri Cadde</name>
     <slug>silivri-cadde</slug>
@@ -1329,26 +1329,17 @@
     <slug>forum-istanbul-avm</slug>
     <url>https://www.atasunoptik.com.tr/kurumsal/forum-istanbul-avm</url>
     <type>AVM</type>
-    <status>open</status>
-    <hours>Açık(10:00-22:00saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
+    <status>temporarily_closed</status>
+    <hours>Geçici olarak kapalıdır.</hours>
     <phone>+902124372906</phone>
     <mobile>+905494372906</mobile>
-    <address>Kocatepe Mah. Şehir Parkı cad. 12.sok. Eski Gümrük alanı Mağaza</address>
-    <opening_hours inferred="false">
-      <day name="monday" open="10:00" close="22:00" />
-      <day name="tuesday" open="10:00" close="22:00" />
-      <day name="wednesday" open="10:00" close="22:00" />
-      <day name="thursday" open="10:00" close="22:00" />
-      <day name="friday" open="10:00" close="22:00" />
-      <day name="saturday" open="10:00" close="22:00" />
-      <day name="sunday" open="10:00" close="22:00" />
-    </opening_hours>
+    <address>Kocatepe Mahallesi Paşa Caddesi Forum İstanbul No: 3-5 İç Kapı No:Z075 Bayrampaşa / İstanbul</address>
     <location>
       <city id="34">İstanbul</city>
       <district id="448">Bayrampaşa</district>
       <country>TR</country>
-      <latitude>41.044728</latitude>
-      <longitude>28.89759</longitude>
+      <latitude>41.0471583</latitude>
+      <longitude>28.8964391</longitude>
     </location>
   </store>
   <store code="M35004">
@@ -6106,6 +6097,24 @@
       <longitude>36.2730668</longitude>
     </location>
   </store>
+  <store code="M35021">
+    <name>İzmir Karşıyaka Hılltown Avm</name>
+    <slug>izmir-karsiyaka-hilltown</slug>
+    <url>https://www.atasunoptik.com.tr/kurumsal/izmir-karsiyaka-hilltown</url>
+    <type>AVM</type>
+    <status>temporarily_closed</status>
+    <hours>Geçici olarak kapalıdır.</hours>
+    <phone>+902325047133</phone>
+    <mobile>+905498324195</mobile>
+    <address>YALI Mah. 6522 Sok.</address>
+    <location>
+      <city id="35">İzmir</city>
+      <district id="496">Karşıyaka</district>
+      <country>TR</country>
+      <latitude>38.478091</latitude>
+      <longitude>27.075041</longitude>
+    </location>
+  </store>
   <store code="M27004">
     <name>Gaziantep Cadde</name>
     <slug>gaziantep-cadde</slug>
@@ -9163,7 +9172,7 @@
     <url>https://www.atasunoptik.com.tr/kurumsal/carsamba-cadde</url>
     <type>Cadde</type>
     <status>open</status>
-    <hours>Açık (09:00-20:00 saatleri arasında) Pazar: 11:00:19:00</hours>
+    <hours>Açık (09:00-20:00 saatleri arasında) Pazar: KAPALI</hours>
     <phone>+903628340034</phone>
     <mobile />
     <address>Sarıcalı Mah. Yunus Emre Cad. No: 28/A Samsun Çarşamba</address>
@@ -9174,7 +9183,7 @@
       <day name="thursday" open="09:00" close="20:00" />
       <day name="friday" open="09:00" close="20:00" />
       <day name="saturday" open="09:00" close="20:00" />
-      <day name="sunday" open="11:00" close="19:00" />
+      <day name="sunday" closed="true" />
     </opening_hours>
     <location>
       <city id="55">Samsun</city>

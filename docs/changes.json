@@ -1,7 +1,28 @@
 {
-  "generated_at": "2026-11-15T14:07:20+03:00",
-  "count": 346,
-  "added": [],
+  "generated_at": "2026-11-16T14:35:33+03:00",
+  "count": 347,
+  "added": [
+    "M35021 İzmir Karşıyaka Hılltown Avm"
+  ],
   "removed": [],
-  "changed": []
+  "changed": [
+    {
+      "code": "M34019",
+      "name": "Forum İstanbul Avm",
+      "fields": [
+        "status",
+        "hours",
+        "address",
+        "latitude",
+        "longitude"
+      ]
+    },
+    {
+      "code": "F55003",
+      "name": "Çarşamba Cadde",
+      "fields": [
+        "hours"
+      ]
+    }
+  ]
 }
