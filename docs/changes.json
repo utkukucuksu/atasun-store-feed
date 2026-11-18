@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-11-17T15:00:14+03:00",
+  "generated_at": "2026-11-18T14:52:25+03:00",
   "count": 347,
   "added": [],
   "removed": [],
-  "changed": []
+  "changed": [
+    {
+      "code": "F06002",
+      "name": "Ankara Sılahtar Cadde",
+      "fields": [
+        "phone",
+        "mobile"
+      ]
+    }
+  ]
 }

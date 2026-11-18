@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stores schema_version="1.1" source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-17T15:00:14+03:00" count="347">
+<stores schema_version="1.1" source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-18T14:52:25+03:00" count="347">
   <store code="M34071">
     <name>Silivri Cadde</name>
     <slug>silivri-cadde</slug>
@@ -5843,8 +5843,8 @@
     <type>Cadde</type>
     <status>open</status>
     <hours>Açık (08:30-18:30 saatleri arasında) Pazar: KAPALI</hours>
-    <phone>+903122225425</phone>
-    <mobile />
+    <phone />
+    <mobile>+905453727134</mobile>
     <address>Gazimahallesi Mah. Silahtar Cad.</address>
     <opening_hours inferred="false">
       <day name="monday" open="08:30" close="18:30" />
