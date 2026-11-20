@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stores schema_version="1.1" source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-19T14:49:38+03:00" count="347">
+<stores schema_version="1.1" source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-20T14:50:22+03:00" count="347">
   <store code="M34071">
     <name>Silivri Cadde</name>
     <slug>silivri-cadde</slug>
@@ -7903,7 +7903,7 @@
     <url>https://www.atasunoptik.com.tr/kurumsal/karacabey-cadde</url>
     <type>Cadde</type>
     <status>open</status>
-    <hours>Açık (09:00-19:00 saatleri arasında) Pazar: 12:00:18:00</hours>
+    <hours>Açık (09:00-19:00 saatleri arasında) Pazar: KAPALI</hours>
     <phone>+902246762022</phone>
     <mobile />
     <address>Tavşanlı Mah. Bursa Cad.</address>
@@ -7914,7 +7914,7 @@
       <day name="thursday" open="09:00" close="19:00" />
       <day name="friday" open="09:00" close="19:00" />
       <day name="saturday" open="09:00" close="19:00" />
-      <day name="sunday" open="12:00" close="18:00" />
+      <day name="sunday" closed="true" />
     </opening_hours>
     <location>
       <city id="16">Bursa</city>
@@ -8740,7 +8740,7 @@
     <url>https://www.atasunoptik.com.tr/kurumsal/bergama-cadde</url>
     <type>Cadde</type>
     <status>open</status>
-    <hours>Açık (09:00-19:00 saatleri arasında) Pazar: 12:00:18:00</hours>
+    <hours>Açık (09:00-19:00 saatleri arasında) Pazar: KAPALI</hours>
     <phone>+902326311678</phone>
     <mobile />
     <address>Ertuğrul Mah. Mustafa Yazıcı Cad. No:3/D</address>
@@ -8751,7 +8751,7 @@
       <day name="thursday" open="09:00" close="19:00" />
       <day name="friday" open="09:00" close="19:00" />
       <day name="saturday" open="09:00" close="19:00" />
-      <day name="sunday" open="12:00" close="18:00" />
+      <day name="sunday" closed="true" />
     </opening_hours>
     <location>
       <city id="35">İzmir</city>
@@ -8794,7 +8794,7 @@
     <url>https://www.atasunoptik.com.tr/kurumsal/mersin-anamur-cadde</url>
     <type>Cadde</type>
     <status>open</status>
-    <hours>Açık (09:00-20:00 saatleri arasında) Pazar: 11:00:20:00</hours>
+    <hours>Açık (09:00-20:00 saatleri arasında) Pazar: KAPALI</hours>
     <phone>+903248145000</phone>
     <mobile />
     <address>Saray Mahallesi Atatürk Bulvarı Dış Kapı:23 İç Kapı:18 Anamur / Mersin</address>
@@ -8805,7 +8805,7 @@
       <day name="thursday" open="09:00" close="20:00" />
       <day name="friday" open="09:00" close="20:00" />
       <day name="saturday" open="09:00" close="20:00" />
-      <day name="sunday" open="11:00" close="20:00" />
+      <day name="sunday" closed="true" />
     </opening_hours>
     <location>
       <city id="33">Mersin</city>
@@ -8983,7 +8983,7 @@
     <url>https://www.atasunoptik.com.tr/kurumsal/manisa-alasehir-cadde</url>
     <type>Cadde</type>
     <status>open</status>
-    <hours>Açık (09:00-20:00 saatleri arasında) Pazar: 11:00:19:00</hours>
+    <hours>Açık (09:00-20:00 saatleri arasında) Pazar: KAPALI</hours>
     <phone>+902366540707</phone>
     <mobile />
     <address>Yenice Mahallesi, Sekine Evren Caddesi, No 22 A</address>
@@ -8994,7 +8994,7 @@
       <day name="thursday" open="09:00" close="20:00" />
       <day name="friday" open="09:00" close="20:00" />
       <day name="saturday" open="09:00" close="20:00" />
-      <day name="sunday" open="11:00" close="19:00" />
+      <day name="sunday" closed="true" />
     </opening_hours>
     <location>
       <city id="45">Manisa</city>
@@ -9064,7 +9064,7 @@
     <url>https://www.atasunoptik.com.tr/kurumsal/bilecik-cadde</url>
     <type>Cadde</type>
     <status>open</status>
-    <hours>Açık (09:00-19:00 saatleri arasında) Pazar: 12:00:19:00</hours>
+    <hours>Açık (09:00-19:00 saatleri arasında) Pazar: KAPALI</hours>
     <phone>+902282121121</phone>
     <mobile>+902282121121</mobile>
     <address>İstiklal Mah. Tevfikbey Cad. Dindar Pasajı No: 35/F Merkez/Bilecik</address>
@@ -9075,11 +9075,11 @@
       <day name="thursday" open="09:00" close="19:00" />
       <day name="friday" open="09:00" close="19:00" />
       <day name="saturday" open="09:00" close="19:00" />
-      <day name="sunday" open="12:00" close="19:00" />
+      <day name="sunday" closed="true" />
     </opening_hours>
     <location>
       <city id="11">Bilecik</city>
-      <district id="9">Merkez</district>
+      <district id="163">Bozüyük</district>
       <country>TR</country>
       <latitude>40.1439723</latitude>
       <longitude>29.9796246</longitude>
@@ -9226,7 +9226,7 @@
     <url>https://www.atasunoptik.com.tr/kurumsal/izmir-kemalpasa-cadde</url>
     <type>Cadde</type>
     <status>open</status>
-    <hours>Açık (09:00-20:00 saatleri arasında) Pazar: 11:00:20:00</hours>
+    <hours>Açık (09:00-20:00 saatleri arasında) Pazar: KAPALI</hours>
     <phone>+902325030018</phone>
     <mobile />
     <address>Atatürk Mahallesi 41/1 2/A İç Kapı No 4 Kemalpaşa/İzmir</address>
@@ -9237,7 +9237,7 @@
       <day name="thursday" open="09:00" close="20:00" />
       <day name="friday" open="09:00" close="20:00" />
       <day name="saturday" open="09:00" close="20:00" />
-      <day name="sunday" open="11:00" close="20:00" />
+      <day name="sunday" closed="true" />
     </opening_hours>
     <location>
       <city id="35">İzmir</city>
