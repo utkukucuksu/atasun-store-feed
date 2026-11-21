@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stores schema_version="1.1" source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-20T14:50:22+03:00" count="347">
+<stores schema_version="1.1" source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-21T14:17:22+03:00" count="348">
   <store code="M34071">
     <name>Silivri Cadde</name>
     <slug>silivri-cadde</slug>
@@ -1931,7 +1931,7 @@
     </opening_hours>
     <location>
       <city id="81">Düzce</city>
-      <district id="9">Merkez</district>
+      <district id="1006">Akçakoca</district>
       <country>TR</country>
       <latitude>40.840679</latitude>
       <longitude>31.152632</longitude>
@@ -9353,6 +9353,33 @@
       <country>TR</country>
       <latitude>37.8087502</latitude>
       <longitude>27.2780094</longitude>
+    </location>
+  </store>
+  <store code="M81003">
+    <name>Düzce Dmall Avm</name>
+    <slug>dmall-avm</slug>
+    <url>https://www.atasunoptik.com.tr/kurumsal/dmall-avm</url>
+    <type>AVM</type>
+    <status>open</status>
+    <hours>Açık(10:00-22:00 saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
+    <phone>+903805111297</phone>
+    <mobile>+905593347086</mobile>
+    <address>Akınlar Mahallesi 2580. Cadde No:46A Mağaza İç Kapı No:Z4 Merkez/Düzce</address>
+    <opening_hours inferred="false">
+      <day name="monday" open="10:00" close="22:00" />
+      <day name="tuesday" open="10:00" close="22:00" />
+      <day name="wednesday" open="10:00" close="22:00" />
+      <day name="thursday" open="10:00" close="22:00" />
+      <day name="friday" open="10:00" close="22:00" />
+      <day name="saturday" open="10:00" close="22:00" />
+      <day name="sunday" open="10:00" close="22:00" />
+    </opening_hours>
+    <location>
+      <city id="81">Düzce</city>
+      <district id="1012">Merkez</district>
+      <country>TR</country>
+      <latitude />
+      <longitude>31.127822</longitude>
     </location>
   </store>
 </stores>

@@ -1,50 +1,9 @@
 {
-  "generated_at": "2026-11-20T14:50:22+03:00",
-  "count": 347,
-  "added": [],
+  "generated_at": "2026-11-21T14:17:22+03:00",
+  "count": 348,
+  "added": [
+    "M81003 Düzce Dmall Avm"
+  ],
   "removed": [],
-  "changed": [
-    {
-      "code": "F35002",
-      "name": "Bergama Cadde",
-      "fields": [
-        "hours"
-      ]
-    },
-    {
-      "code": "F35003",
-      "name": "İzmir Kemalpaşa Cadde",
-      "fields": [
-        "hours"
-      ]
-    },
-    {
-      "code": "F16003",
-      "name": "Karacabey Cadde",
-      "fields": [
-        "hours"
-      ]
-    },
-    {
-      "code": "F45002",
-      "name": "Alaşehir Cadde",
-      "fields": [
-        "hours"
-      ]
-    },
-    {
-      "code": "F11001",
-      "name": "Bilecik Cadde",
-      "fields": [
-        "hours"
-      ]
-    },
-    {
-      "code": "F33002",
-      "name": "Mersin Anamur Cadde",
-      "fields": [
-        "hours"
-      ]
-    }
-  ]
+  "changed": []
 }
