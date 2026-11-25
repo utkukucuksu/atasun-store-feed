@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stores schema_version="1.1" source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-24T16:52:52+03:00" count="348">
+<stores schema_version="1.1" source="https://www.atasunoptik.com.tr/kurumsal/nerelerdeyiz_1476" generated_at="2026-11-25T16:06:13+03:00" count="348">
   <store code="M34071">
     <name>Silivri Cadde</name>
     <slug>silivri-cadde</slug>
@@ -57,7 +57,7 @@
   <store code="M06003">
     <name>Ankara Acıty Avm</name>
     <slug>acity-avm</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/acity-avm </url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/acity-avm</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık(10:00-22:00saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
@@ -300,8 +300,7 @@
   <store code="M45001">
     <name>Novada Akhisar Outlet Avm</name>
     <slug>akhisar-novada-avm</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/akhisar-novada-avm
-</url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/akhisar-novada-avm</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık (10:00-22:00 saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
@@ -1831,8 +1830,7 @@
   <store code="M42001">
     <name>Novada Konya Outlet Avm</name>
     <slug>konya-novada-avm</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/konya-novada-avm
-</url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/konya-novada-avm</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık(10:00-22:00saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
@@ -2237,7 +2235,7 @@
   <store code="M41003">
     <name>Ncıty Avm</name>
     <slug>ncity-avm</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/ncity-avm </url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/ncity-avm</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık(10:00-22:00saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
@@ -2615,7 +2613,7 @@
   <store code="M27003">
     <name>Gaziantep Sanko Park Avm</name>
     <slug>sanko-park-avm</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/sanko-park-avm </url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/sanko-park-avm</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık(10:00-22:00saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
@@ -3101,8 +3099,7 @@
   <store code="M77001">
     <name>Yalova Kipa Avm</name>
     <slug>yalova-kipa-avm</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/yalova-kipa-avm
-</url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/yalova-kipa-avm</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık(10:00-22:00saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
@@ -3156,8 +3153,7 @@
   <store code="M48001">
     <name>Bodrum Mıdtown Avm</name>
     <slug>bodrum-midtown</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/bodrum-midtown
-</url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/bodrum-midtown</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık (10:00-22:00 saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
@@ -3184,8 +3180,7 @@
   <store code="M33003">
     <name>Mersin Palm Cıty Avm</name>
     <slug>mersin-palmcity</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/mersin-palmcity
-</url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/mersin-palmcity</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık(10:00-22:00saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
@@ -3212,8 +3207,7 @@
   <store code="M59001">
     <name>Çorlu Orıon Avm</name>
     <slug>tekirdag-orion</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/tekirdag-orion
-</url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/tekirdag-orion</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık(10:00-22:00saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
@@ -3240,8 +3234,7 @@
   <store code="M48002">
     <name>Bodrum Oasıs Avm</name>
     <slug>bodrum-oasis</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/bodrum-oasis
-</url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/bodrum-oasis</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık (10:00-20:00 saatleri arasında)</hours>
@@ -3268,8 +3261,7 @@
   <store code="M67001">
     <name>Zonguldak 67 Burda Avm</name>
     <slug>zonguldak-burda</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/zonguldak-burda
-</url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/zonguldak-burda</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık(10:00-22:00saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
@@ -3296,8 +3288,7 @@
   <store code="M34061">
     <name>İstanbul Eyüp Axıs Avm</name>
     <slug>istanbul-eyup</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/istanbul-eyup
-</url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/istanbul-eyup</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık(10:00-22:00saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
@@ -3351,8 +3342,7 @@
   <store code="M07002">
     <name>Novada Manavgat Avm</name>
     <slug>antalya-novada</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/antalya-novada
-</url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/antalya-novada</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık(10:00-23:00saatleri arasında) Cumartesi: 10:00-23:00 Pazar:10:00-23:00</hours>
@@ -3379,8 +3369,7 @@
   <store code="M61001">
     <name>Forum Trabzon Avm</name>
     <slug>trabzon-forum</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/trabzon-forum
-</url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/trabzon-forum</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık(10:00-22:00saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
@@ -3407,8 +3396,7 @@
   <store code="M71001">
     <name>Kırıkkale Podıum Avm</name>
     <slug>kirikkale-podium</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/kirikkale-podium
-</url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/kirikkale-podium</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık(10:00-22:00saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
@@ -3705,8 +3693,7 @@
   <store code="M06022">
     <name>Ankara Podıum Avm</name>
     <slug>ankara-podium</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/ankara-podium
-</url>
+    <url>https://www.atasunoptik.com.tr/kurumsal/ankara-podium</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık(10:00-22:00saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
@@ -6549,8 +6536,8 @@
   </store>
   <store code="M33005">
     <name>Mersin Novacıty Avm</name>
-    <slug>mersin-novacıty</slug>
-    <url>https://www.atasunoptik.com.tr/kurumsal/mersin-novacıty</url>
+    <slug>mersin-novacity</slug>
+    <url>https://www.atasunoptik.com.tr/kurumsal/mersin-novacity</url>
     <type>AVM</type>
     <status>open</status>
     <hours>Açık(10:00-22:00saatleri arasında) Cumartesi: 10:00-22:00 Pazar:10:00-22:00</hours>
