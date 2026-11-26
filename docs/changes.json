@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-11-25T16:06:13+03:00",
+  "generated_at": "2026-11-26T15:46:46+03:00",
   "count": 348,
   "added": [],
   "removed": [],
-  "changed": []
+  "changed": [
+    {
+      "code": "M35021",
+      "name": "İzmir Karşıyaka Hılltown Avm",
+      "fields": [
+        "status",
+        "hours"
+      ]
+    }
+  ]
 }
